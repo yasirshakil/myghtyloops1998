@@ -50,7 +50,7 @@ const HomePage = ()=> {
             <Footer/>
             <style jsx>{`
                 .bg{
-                    background:	rgba(255,255,255,0.7);
+                    background:	rgba(255,255,255,0.5);
                 }
 
                 .homeSection{
@@ -148,18 +148,17 @@ const HomePage = ()=> {
                     .coin{
                         widht:auto;
                         height:auto;
-                        margin:0 61px;
                     }
 
                     .btnSection button{
-                        margin: 0 0 0 22px;
+                        
                     }
                     .btnSection img {
                         position: absolute;
                         top: 34px;
                         width: 200px;
                         height: 26px;
-                        left: 85px;
+                        left: 75px;
                     }
 
                     .homeSection img {
