@@ -16,9 +16,9 @@ const Footer = ()=>{
                         flex-direction: row-reverse;
                     }
                     .footer .logo {
-                        height:32px;
+                        height:auto;
                         margin:0px 6px;
-                        width:32px;
+                        width:auto;
                     }
                 `}</style>
             </>
