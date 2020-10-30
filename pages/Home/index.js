@@ -5,9 +5,9 @@ import Home from '..';
 
 const HomePage = ()=> {
     return (
-        <div className="mb-5">
+        <div className="pb-5">
             <Navbar/>
-                <div className="container py-5">
+                <div className="container bg py-5">
                     <div className="row">
                         <div className="col-lg-12 col-md-12 col-sm-12 col-12 homeSection">
                             <img src="/logo-denitivo.webp" alt="Vercel Logo" className="logo" />
@@ -49,6 +49,10 @@ const HomePage = ()=> {
                 </div>
             <Footer/>
             <style jsx>{`
+                .bg{
+                    background:	rgba(255,255,255,0.7);
+                }
+
                 .homeSection{
                     display:felx;
                     justify-content: center;
