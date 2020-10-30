@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../../uiComponents/navbar'
-import Footer from '../../uiComponents/footer'
+import Navbar from '../../components/navbar'
+import Footer from '../../components/footer'
 import Home from '..';
 
 const HomePage = ()=> {
