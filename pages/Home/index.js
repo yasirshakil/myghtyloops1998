@@ -5,7 +5,7 @@ import Home from '..';
 
 const HomePage = ()=> {
     return (
-        <div>
+        <div className="mb-5">
             <Navbar/>
                 <div className="container py-5">
                     <div className="row">
