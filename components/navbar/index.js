@@ -16,11 +16,11 @@ const Navbar = () =>{
               <img src="/icon6.webp" alt="Vercel Logo" className="logo" />
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12 navLinksSec">
-              <Link className="links" href="/">Home</Link>
-              <Link className="links" href="/">How dose it work</Link>
-              <Link href="/">NFT Money</Link>
-              <Link href="/">My collection</Link>
-              <Link href="/">Opensea</Link>
+              <a  href="/">Home</a>
+              <a  href="/">How dose it work</a>
+              <a href="/">NFT Money</a>
+              <a href="/">My collection</a>
+              <a href="/">Opensea</a>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-12 iconSec">
               <button className="navbtn">Connect wallet</button>
@@ -54,7 +54,7 @@ const Navbar = () =>{
               align-items:center;
             }
 
-            .Navbar .navLinksSec links {
+            .Navbar .navLinksSec a {
               margin:0px 15px;
               pading:8px;
               font-weight:500;
@@ -63,7 +63,7 @@ const Navbar = () =>{
               position: relative;
             }
 
-            .Navbar .navLinksSec links:after{
+            .Navbar .navLinksSec a:after{
               position: absolute;
               content:'';
               height:1px;
@@ -73,7 +73,7 @@ const Navbar = () =>{
               left:0;
             }
 
-            .Navbar .navLinksSec links:hover:after{
+            .Navbar .navLinksSec a:hover:after{
                 height:4px;
             }
 
