@@ -5,7 +5,6 @@ import Link from 'next/link'
 const Navbar = () =>{
     return (
       <div>
-
         <div className="container Navbar">
           <div className="row">
             <div className="col-lg-3 col-md-4 col-sm-12 col-12 iconSec">
@@ -17,7 +16,7 @@ const Navbar = () =>{
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12 navLinksSec">
               <a  href="/">Home</a>
-              <a  href="/">How dose it work</a>
+              <a  href="../howItWorks">How dose it work</a>
               <a href="/">NFT Money</a>
               <a href="/">My collection</a>
               <a href="/">Opensea</a>

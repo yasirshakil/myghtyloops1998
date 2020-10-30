@@ -2,6 +2,7 @@ import "../styles/styles.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from 'next/head'
 import HomePage from '../pages/Home'
+import HowItWorks from '../pages/howItWorks'
 
 export default function Home() {
   return (
