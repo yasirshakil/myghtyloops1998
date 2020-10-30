@@ -15,25 +15,35 @@ const HomePage = ()=> {
                         <div className="col-lg-12 col-md-12 col-sm-12 col-12 homeSection">
                             <img src="/recto-2.webp" alt="Vercel Logo" className="logo" />
                         </div>
-                        <div className="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                        <div className="col-lg-12 col-md-12 col-sm-12 col-12 text-center mb-5">
                             <h6><i>Creating value trough NFTs</i></h6>
                             <button className="buyNumis">Buy Numis</button>
                             <button className="whitePaper">White Paper</button>
                         </div>
-                    </div>
-                    <div class="row mt-5">
                         <div className="col-lg-3 col-md-3 col-sm-12 col-12 m-auto coinCardBox">
                             <img src="/coin.webp" alt="Vercel Logo" className="coin" />
-                            <div>
-                                <button className="btnSection"></button>
+                            <div className="btnSection">
+                                <button className="">LP UNI-V2</button>
+                                <img src="/shadow.png"/>
                             </div>   
+                            <h6 className="mt-4">Click here to get LP tokens</h6>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-12 col-12 m-auto coinCardBox">
                             <img src="/coin.webp" alt="Vercel Logo" className="coin" />  
-                             
+                            <div className="btnSection">
+                                <button className="">NFT Money</button>
+                                <img src="/shadow.png"/>
+
+                            </div> 
+                            <h6 className="mt-4">Get your limited NFT Money</h6>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-12 col-12 m-auto coinCardBox">
-                            <img src="/coin.webp" alt="Vercel Logo" className="coin" />   
+                            <img src="/coin.webp" alt="Vercel Logo" className="coin" /> 
+                            <div className="btnSection">
+                                <button className="">Stake</button>
+                                <img src="/shadow.png"/>
+                            </div>  
+                            <h6 className="mt-4">Stake NFT Money & get rewards</h6>
                         </div>
                     </div>
                 </div>
@@ -71,7 +81,6 @@ const HomePage = ()=> {
                     background: #000;
                     opacity:0.6;
                     color:#fff;
-
                 }
 
                 .whitePaper{
@@ -90,19 +99,69 @@ const HomePage = ()=> {
                 }
 
                 .coin{
+                    widht:auto;
                     height:auto;
-                    width:auto;
+                    
                 }
 
                 .coinCardBox{
-                    height:400px;
+                    height:auto;
                     // background:red;
+                    text-align:center;
                 }
 
                 .btnSection{
                     height:auto;
                     wifth:100%;
-                    // background:blue;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin:20px 0 0 0;
+                    font-size:20px;
+                    position:relative;
+                }
+                .btnSection button{
+                    border:none;
+                    width:170px;
+                    background-color: rgba(28, 28, 28, 1);
+                    color:#fff;
+                    font-size:22px;
+                    transition:0.5s ease ;
+
+                }
+                .btnSection button:hover{          
+                    color:#89EABD;
+                }
+
+                .btnSection img {
+                    position: absolute;
+                    top: 34px;
+                    width: 200px;
+                    height: 26px;
+                    left: 28px;
+                }
+                @media only screen and (max-width: 767.5px) and (min-width: 240px)  {
+                    .coin{
+                        widht:auto;
+                        height:auto;
+                        margin:0 61px;
+                    }
+
+                    .btnSection button{
+                        margin: 0 0 0 22px;
+                    }
+                    .btnSection img {
+                        position: absolute;
+                        top: 34px;
+                        width: 200px;
+                        height: 26px;
+                        left: 85px;
+                    }
+
+                    .homeSection img {
+                        width:300px;
+                        height:auto;
+                    }
                 }
             `}</style>
         </div>
