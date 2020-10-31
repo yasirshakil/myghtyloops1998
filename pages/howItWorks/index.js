@@ -1,12 +1,18 @@
 import React from 'react'
+import Navbar from '../../components/navbar'
+import Footer from '../../components/footer'
+
+
 
 
  const HowItWorks = ()=>{
     return(
         <div>
-            <h1> hellow World</h1>
-
-
+            <Navbar/>
+                <div className="container">
+                    <h1> hellow World</h1>
+                </div>
+            <Footer/>
         <style jsx>{`
          h1{
              color:red;

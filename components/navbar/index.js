@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'next/link'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 const Navbar = () =>{
@@ -15,8 +17,8 @@ const Navbar = () =>{
               <img src="/icon6.webp" alt="Vercel Logo" className="logo" />
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12 navLinksSec">
-              <a  href="/">Home</a>
-              <a  href="../howItWorks">How dose it work</a>
+              <Link href="/"><a>Home</a></Link>
+              <Link href="../howItWorks"><a>How dose it work</a></Link>
               <a href="/">NFT Money</a>
               <a href="/">My collection</a>
               <a href="/">Opensea</a>
