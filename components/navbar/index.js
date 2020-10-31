@@ -19,16 +19,15 @@ const Navbar = () =>{
             <div className="col-lg-6 col-md-6 col-sm-12 col-12 navLinksSec">
               <Link href="/"><a>Home</a></Link>
               <Link href="../howItWorks"><a>How dose it work</a></Link>
-              <a href="/">NFT Money</a>
-              <a href="/">My collection</a>
+              <Link href="../ntfMoney/index.js"><a>NFT Money</a></Link>
+              <a href="">My collection</a>
               <a href="/">Opensea</a>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-12 iconSec">
               <button className="navbtn">Connect wallet</button>
             </div>
           </div>
-        </div>
-          
+        </div>  
         <style jsx>{`
                 *{
                   font-family: 'Montserrat', sans-serif;
