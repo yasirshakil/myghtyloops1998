@@ -49,123 +49,123 @@ const HomePage = ()=> {
                 </div>
             <Footer/>
             <style jsx>{`
-                .bg{
-                    background:	rgba(255,255,255,0.4);
-                }
+                // .bg{
+                //     background:	rgba(255,255,255,0.4);
+                // }
 
-                .homeSection{
-                    display:felx;
-                    justify-content: center;
-                    align-items: center;
-                }
+                // .homeSection{
+                //     display:felx;
+                //     justify-content: center;
+                //     align-items: center;
+                // }
 
-                .homeSection img {
-                    width:auto;
-                    height:auto;
-                }
+                // .homeSection img {
+                //     width:auto;
+                //     height:auto;
+                // }
 
-                .ntfs h6 {
-                    font-weight:600;
-                    font-style: italic;npm
-                }
+                // .ntfs h6 {
+                //     font-weight:600;
+                //     font-style: italic;
+                // }
 
-                .buyNumis{
-                    height:40px;
-                    width:140px;
-                    margin:40px 20px 0 20px;
-                    border :solid 1px #000;
-                    background: transparent;
-                    transition:0.5s ease ;
-                }
-                .buyNumis:hover{
-                    height:40px;
-                    width:140px;
-                    margin:40px 20px 0 20px;
-                    border :solid 1px #000;
-                    background: #000;
-                    opacity:0.6;
-                    color:#fff;
-                }
+                // .buyNumis{
+                //     height:40px;
+                //     width:140px;
+                //     margin:40px 20px 0 20px;
+                //     border :solid 1px #000;
+                //     background: transparent;
+                //     transition:0.5s ease ;
+                // }
+                // .buyNumis:hover{
+                //     height:40px;
+                //     width:140px;
+                //     margin:40px 20px 0 20px;
+                //     border :solid 1px #000;
+                //     background: #000;
+                //     opacity:0.6;
+                //     color:#fff;
+                // }
 
-                .whitePaper{
-                    height:40px;
-                    width:140px;
-                    margin:40px 20px 0 20px;
-                    border:none;
-                    background: #000;
-                    opacity:0.6;
-                    transition:0.5s ease ;
-                    color:#fff;
+                // .whitePaper{
+                //     height:40px;
+                //     width:140px;
+                //     margin:40px 20px 0 20px;
+                //     border:none;
+                //     background: #000;
+                //     opacity:0.6;
+                //     transition:0.5s ease ;
+                //     color:#fff;
 
-                }
-                .whitePaper:hover{
-                    opacity:1; 
-                }
+                // }
+                // .whitePaper:hover{
+                //     opacity:1; 
+                // }
 
-                .coin{
-                    widht:auto;
-                    height:auto;
+                // .coin{
+                //     widht:auto;
+                //     height:auto;
                     
-                }
+                // }
 
-                .coinCardBox{
-                    height:auto;
-                    // background:red;
-                    text-align:center;
-                }
+                // .coinCardBox{
+                //     height:auto;
+                //     // background:red;
+                //     text-align:center;
+                // }
 
-                .btnSection{
-                    height:auto;
-                    wifth:100%;
-                    display:flex;
-                    justify-content: center;
-                    align-items: center;
-                    margin:20px 0 0 0;
-                    font-size:20px;
-                    position:relative;
-                }
-                .btnSection button{
-                    border:none;
-                    width:170px;
-                    background-color: rgba(28, 28, 28, 1);
-                    color:#fff;
-                    font-size:22px;
-                    transition:0.5s ease ;
+                // .btnSection{
+                //     height:auto;
+                //     wifth:100%;
+                //     display:flex;
+                //     justify-content: center;
+                //     align-items: center;
+                //     margin:20px 0 0 0;
+                //     font-size:20px;
+                //     position:relative;
+                // }
+                // .btnSection button{
+                //     border:none;
+                //     width:170px;
+                //     background-color: rgba(28, 28, 28, 1);
+                //     color:#fff;
+                //     font-size:22px;
+                //     transition:0.5s ease ;
 
-                }
-                .btnSection button:hover{          
-                    color:#89EABD;
-                }
+                // }
+                // .btnSection button:hover{          
+                //     color:#89EABD;
+                // }
 
-                .btnSection img {
-                    position: absolute;
-                    top: 34px;
-                    width: 200px;
-                    height: 26px;
-                    left: 28px;
-                }
-                @media only screen and (max-width: 767.5px) and (min-width: 240px)  {
-                    .coin{
-                        widht:auto;
-                        height:auto;
-                    }
+                // .btnSection img {
+                //     position: absolute;
+                //     top: 34px;
+                //     width: 200px;
+                //     height: 26px;
+                //     left: 28px;
+                // }
+                // @media only screen and (max-width: 767.5px) and (min-width: 240px)  {
+                //     .coin{
+                //         widht:auto;
+                //         height:auto;
+                //     }
 
-                    .btnSection button{
+                //     .btnSection button{
                         
-                    }
-                    .btnSection img {
-                        position: absolute;
-                        top: 34px;
-                        width: 200px;
-                        height: 26px;
-                        left: 75px;
-                    }
+                //     }
+                //     .btnSection img {
+                //         position: absolute;
+                //         top: 34px;
+                //         width: 200px;
+                //         height: 26px;
+                //         left: 75px;
+                //     }
 
-                    .homeSection img {
-                        width:300px;
-                        height:auto;
-                    }
-                }
+                //     .homeSection img {
+                //         width:300px;
+                //         height:auto;
+                //     }
+                // }
             `}</style>
         </div>
     )

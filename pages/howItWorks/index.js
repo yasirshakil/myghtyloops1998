@@ -99,74 +99,7 @@ const HowItWorks = () => {
       </div>
       <Footer />
       <style jsx>{`
-         h1{
-             color:#000000;
-         }
-         .t-left {
-            text-align: left;
-         }
-         .p-120 {
-            padding: 0px 120px;
-         }
-         .align-center {
-            // justify-content: center;
-            display: flex;
-            text-align: center;
-            align-items: center;
-         }
-         .title {
-             font-weight: bold;
-             font-size: 43px;
-         }
-         .box {
-             background-color: #1c2025;
-             padding: 40px 10px;
-             height: 100%;
-             width:100%;
-         }
-         .box1 {
-            text-align: center;
-            display: flex;
-            justify-content: flex-end;
-            padding-right: 0px;
-         }
-         .box > h3 {
-             color: white;
-             letter-spacing:0.08em;
-             font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
-             font-weight: 600;
-         }
-         .box > p {
-             color: white;
-             font-size:14px; 
-             font-weight: 500;
-             font: normal normal normal 15px/1.4em 'Open Sans',sans-serif;
-         }
-         .p-100 {
-            padding: 0px 100px;
-         }
-         .f-23 {
-            font-size: 23px;
-            color: #545454;
-         }
-         .icon-desc {
-             text-align: justify;
-         }
-
-         .iconBox{
-             width :150px;
-            //  background:red;
-         }
-
-         @media only screen and (max-width: 767.5px) and (min-width: 240px)  {
-            .p-100 {
-                padding: 0px;
-            }
-
-            .p-120{
-                padding:0;
-            }
-        `}</style>
+       `}</style>
     </div>
   );
 };

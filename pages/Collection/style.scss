@@ -1,0 +1,171 @@
+.coinSlider {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-image: url(../../public/arrows_white.png);
+  }
+
+  .coinSlider {
+    .sliderCoins{
+      height: 160px;
+      width: 200px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .arrows_right{
+      position: absolute;
+      z-index: 999;
+      width: auto;
+      height: auto;
+      right: -3.5%;
+      bottom: 30%;
+    }
+
+    .arrows_left{
+      position: absolute;
+      z-index: 999;
+      width: auto;
+      height: auto;
+      left: -3.5%;
+      bottom: 30%;
+    }
+
+    .sliderCoins{
+      .coins{
+        position: absolute;
+        height: 100%;
+        width: 1450px;
+        right: 0px;
+        display: flex;
+      }
+      .coins{
+        img{
+          height: 150px;
+          width: 150px;
+          margin: 0 15px 0 15px;
+        }
+      }
+
+    #left{
+      height: 100%;
+      width: 20px;
+      position: absolute;
+    }
+
+    #left:hover{background-color: black;}
+
+    #left:hover + .coins{
+      animation: mymove 10s ;
+    }
+    
+    @keyframes mymove {
+      from{
+        right:0px;
+      }
+      to{
+        // right: -800px;
+    
+      }
+    }
+
+    #right{
+      height: 100%;
+      width: 20px;
+      z-index: 999;
+      right: 0;
+      position: absolute;
+    }
+
+    #right:hover + .coins{
+      animation: move 10s ;
+    }
+
+    @keyframes move {
+      from{
+        right:0px;
+      }
+      to{
+        right: -1260px;
+        
+      }
+    }
+
+    }
+
+  }
+
+  .RewardSection {
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  .RewardSection {
+    .RewardBox {
+      position: relative;
+      top: 0;
+      height: auto;
+      width: auto;
+      display: flex;
+      justify-content: center;
+    }
+    .RewardBox{
+      .reward {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .reward {
+        .amount1 {
+          height: 50%;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 22px;
+          padding: 30px 0 0 0;
+          border-bottom: solid 1px #21252921;
+        }
+        .amount2 {
+          height: 50%;
+          width: 100%;
+          font-size: 24px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 0 0 30px 0;
+        }
+      }
+    }
+  }
+
+  .farmeBtns {
+    position: absolute;
+    bottom: -4%;
+    left: 26%;
+    border: none;
+    padding: 2px 25px;
+    border-radius: 50px;
+    background: #000;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    z-index: 1;
+    overflow: hidden;
+    transition: ease 0.2s;
+  }
+
+  .farmeBtns:hover {
+    background: repeat padding-box border-box 0% 0% / auto auto scroll
+        linear-gradient(229deg, #ff4f4f 0%, rgba(29, 44, 243, 0) 100%),
+      #ff4f4f;
+  }
