@@ -19,7 +19,7 @@ const Navbar = () =>{
             <div className="col-lg-6 col-md-6 col-sm-12 col-12 navLinksSec">
               <Link href="/"><a>Home</a></Link>
               <Link href="../howItWorks"><a>How dose it work</a></Link>
-              <Link href="../ntfMoney/index.js"><a>NFT Money</a></Link>
+              <Link href="../Money"><a>NFT Money</a></Link>
               <a href="">My collection</a>
               <a href="/">Opensea</a>
             </div>

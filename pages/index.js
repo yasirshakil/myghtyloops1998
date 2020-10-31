@@ -2,13 +2,13 @@ import "../styles/styles.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from 'next/head'
 import HomePage from '../pages/Home'
-import NtfMoney from '../pages/nftMoney'
+import Money from '../pages/Money'
 
 export default function Home() {
   return (
     <>
        <body>
-          <NtfMoney/>
+          <HomePage/>
        </body>
         <style jsx>{`
           body{

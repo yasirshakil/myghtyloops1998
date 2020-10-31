@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../../components/navbar'
 import Footer from '../../components/footer'
 
-const ntfMoney = ()=>{
+const Money = ()=>{
 
     return(
         <div className="mb-5">
@@ -208,4 +208,4 @@ const ntfMoney = ()=>{
 
 }
 
-export default ntfMoney;
+export default Money;
