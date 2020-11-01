@@ -4,7 +4,8 @@ import Footer from "../../components/footer";
 
 const HowItWorks = () => {
   return (
-    <div>
+    <>
+      <body className ="bg">
       <Navbar />
       <div className="container">
         <div className="row text-center mt-5">
@@ -98,9 +99,9 @@ const HowItWorks = () => {
         </div>
       </div>
       <Footer />
-      <style jsx>{`
-       `}</style>
-    </div>
+      </body>
+      <style jsx>{``}</style>
+    </>
   );
 };
 

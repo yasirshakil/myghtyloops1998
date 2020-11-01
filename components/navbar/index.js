@@ -17,7 +17,7 @@ const Navbar = () => {
     <div>
       <div id="" className="container Navbar">
         <div className="row">
-          <div className="col-lg-3 col-md-4 col-sm-12 col-12 iconSec">
+          <div className="col-lg-3 col-md-3 col-sm-12 col-12 iconSec">
             <img src="/icon1.webp" alt="Vercel Logo" className="logo" />
             <img src="/icon2.webp" alt="Vercel Logo" className="logo" />
             <img src="/icon3.webp" alt="Vercel Logo" className="logo" />
@@ -184,6 +184,17 @@ const Navbar = () => {
 
           .mobileMenuBtn button:focus {
             outline: none;
+          }
+        }
+
+        @media only screen and (max-width: 1023.5px) and (min-width: 768px) {
+          .Navbar .navLinksSec a {
+            margin: 0px 4px;
+            pading: 8px;
+            font-weight: 500;
+            font-size: 12px;
+            color: #000000;
+            position: relative;
           }
         }
       `}</style>

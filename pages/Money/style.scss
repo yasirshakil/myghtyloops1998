@@ -127,3 +127,32 @@
         }
     }
 }
+
+@media only screen and (max-width: 1023.5px) and (min-width: 768px) {
+
+    .Pading{
+        padding:0;
+    }
+
+    .framBox {
+        .farmeBtns{
+            bottom:-5%;
+            left:33%;
+            padding: 0px 10px;
+            font-size: 16px;
+        }
+
+        .bCoin {
+            width: 115px;
+
+        }
+
+        .innerFrameTxt {    
+            top: 10%;
+            left: 40%;
+            font-size: 17px;
+            
+        }
+    }
+
+}
