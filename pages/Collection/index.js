@@ -4,7 +4,8 @@ import Footer from "../../components/footer";
 
 const Collection = () => {
   return (
-    <div>
+    <>
+    <body className="bg">
       <Navbar />
       <div className="container">
         <div className="row mt-5">
@@ -43,7 +44,14 @@ const Collection = () => {
         </div>
       </div>
       <Footer />
-    </div>
+    </body>
+    <style jsx>{`
+        .bg{
+          background-image: url('../../bg.webp');
+          background-size:cover;
+        }
+      `}</style>
+    </>
   );
 };
 

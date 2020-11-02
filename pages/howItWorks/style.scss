@@ -1,9 +1,4 @@
 
-// .bg{
-//     background-image: url(../../public/bg.webp);
-// }
-
-
 h1{
     color:#000000;
 }
@@ -14,7 +9,7 @@ h1{
    padding: 0px 120px;
 }
 .align-center {
-   // justify-content: center;
+   justify-content: center;
    display: flex;
    text-align: center;
    align-items: center;
@@ -51,7 +46,7 @@ h1{
    padding: 0px 100px;
 }
 .f-23 {
-   font-size: 23px;
+   font-size: 18px;
    color: #545454;
 }
 .icon-desc {
@@ -60,7 +55,11 @@ h1{
 
 .iconBox{
     width :150px;
-   //  background:red;
+
+}
+
+.ml_-53{
+    margin: 0px 0px 0px -108px;
 }
 
 @media only screen and (max-width: 767.5px) and (min-width: 240px)  {
@@ -71,4 +70,27 @@ h1{
    .p-120{
        padding:0;
    }
+
+   .ml_-53{
+    margin: 0px 0px 0px -53px;
 }
+
+.f-23 {
+    font-size: 14px;
+    color: #545454;
+}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
+    .p-100 {
+        padding: 0px;
+    }
+    .ml_-53{
+        margin: 0px 0px 0px -53px;
+    }
+    .f-23 {
+        font-size: 14px;
+        color: #545454;
+    }
+ 
+ }

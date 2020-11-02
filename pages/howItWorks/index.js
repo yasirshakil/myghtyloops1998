@@ -1,8 +1,13 @@
 import React from "react";
 import Navbar from "../../components/navbar";
 import Footer from "../../components/footer";
+import { ButtonGroup } from "react-bootstrap";
+
+
+
 
 const HowItWorks = () => {
+  
   return (
     <>
       <body className ="bg">
@@ -67,10 +72,9 @@ const HowItWorks = () => {
             </h6>
           </div>
           <div className="col-md-6 align-center mt-5">
-            <div className="iconBox">
+            <div className="iconBox ml_-53">
               <img src="/iconbox2.webp" alt="iconbox" />
             </div>
-
             <h6 className="f-23 icon-desc">
               <span>
                 Locking down value & <br /> providing liquidity
@@ -79,9 +83,10 @@ const HowItWorks = () => {
           </div>
         </div>
         <div className="row p-120">
-          <div className="col-md-6 align-center mt-5">
-            <img src="/iconbox3.webp" alt="iconbox" />
-
+          <div className="col-md-6 align-center mt-5">      
+            <div className="iconBox">
+              <img src="/iconbox3.webp" alt="iconbox" />
+            </div>
             <h6 className="f-23 icon-desc">
               <span>
                 Creating NFTs with collateral <br /> value that increases over
@@ -90,8 +95,9 @@ const HowItWorks = () => {
             </h6>
           </div>
           <div className="col-md-6 align-center mt-5">
-            <img src="/iconbox4.webp" alt="iconbox" />
-
+            <div className="iconBox">
+              <img src="/iconbox4.webp" alt="iconbox" />
+            </div>
             <h6 className="f-23 t-left">
               <span>Creating sustainable staking rewards</span>
             </h6>
@@ -100,7 +106,13 @@ const HowItWorks = () => {
       </div>
       <Footer />
       </body>
-      <style jsx>{``}</style>
+
+      <style jsx>{`
+        .bg{
+          background-image: url('../../bg.webp');
+          background-size:cover;
+        }
+      `}</style>
     </>
   );
 };

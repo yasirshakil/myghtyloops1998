@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = ()=>{
     return(
             <>
-                <div className="container footer">
+                <div className="container footer my-5">
                     <a href=''><img src="/icon1.webp" alt="Vercel Logo" className="logo" /></a>
                     <a href=''><img src="/icon3.webp" alt="Vercel Logo" className="logo" /></a>
                     <a href=''><img src="/icon4.webp" alt="Vercel Logo" className="logo" /></a>

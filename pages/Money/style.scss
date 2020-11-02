@@ -125,10 +125,17 @@
             bottom:-2%;
             left:40%;
         }
+
+        .innerFrameTxt {    
+            top: 13%;
+            left: 43%;
+            font-size: 25px;
+            
+        }
     }
 }
 
-@media only screen and (max-width: 1023.5px) and (min-width: 768px) {
+@media only screen and (max-width: 991px) and (min-width: 768px) {
 
     .Pading{
         padding:0;
@@ -146,6 +153,34 @@
             width: 115px;
 
         }
+
+        .innerFrameTxt {    
+            top: 10%;
+            left: 40%;
+            font-size: 17px;
+            
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+
+    .Pading{
+        padding:0;
+    }
+
+    .framBox {
+        .farmeBtns{
+            bottom: -4%;
+            padding: 0px 10px;
+            font-size: 22px;
+        }
+
+        // .bCoin {
+        //     width: 115px;
+
+        // }
 
         .innerFrameTxt {    
             top: 10%;
